@@ -1,0 +1,563 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan  8 12:24:41 2025
+# Process ID: 5360
+# Current directory: C:/Users/Lenovo/Documents/Vivado/E4/E4t1.runs/synth_1
+# Command line: vivado.exe -log Processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Processor.tcl
+# Log file: C:/Users/Lenovo/Documents/Vivado/E4/E4t1.runs/synth_1/Processor.vds
+# Journal file: C:/Users/Lenovo/Documents/Vivado/E4/E4t1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Processor.tcl -notrace
+Command: synth_design -top Processor -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18392 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 835.891 ; gain = 173.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Processor' [C:/Users/Lenovo/Documents/Vivado/E4/Processor.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'ControlPath' [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:15]
+WARNING: [Synth 8-153] case item 6'b0xx000 will never be executed [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:54]
+WARNING: [Synth 8-153] case item 6'b0xx111 will never be executed [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:54]
+WARNING: [Synth 8-153] case item 6'b0xx110 will never be executed [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:54]
+WARNING: [Synth 8-153] case item 6'b0xx100 will never be executed [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:54]
+WARNING: [Synth 8-153] case item 6'b0xx011 will never be executed [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:54]
+WARNING: [Synth 8-153] case item 6'b0xx010 will never be executed [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'ControlPath' (1#1) [C:/Users/Lenovo/Documents/Vivado/E4/ControlPath.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [C:/Users/Lenovo/Documents/Vivado/E4/DataPath.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'Counter' [C:/Users/Lenovo/Documents/Vivado/E4/Counter.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'Counter' (2#1) [C:/Users/Lenovo/Documents/Vivado/E4/Counter.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'MUX2x1' [C:/Users/Lenovo/Documents/Vivado/E4/MUX2x1.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2x1' (3#1) [C:/Users/Lenovo/Documents/Vivado/E4/MUX2x1.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/Lenovo/Documents/Vivado/E4/ProgramCounter.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (4#1) [C:/Users/Lenovo/Documents/Vivado/E4/ProgramCounter.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'Instr_Mem' [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:16]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'C:/DriveA/Workspaces/Vivado/CA_Lab/E4/inst2.mem'; please make sure the file is added to project and has read permission, ignoring [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:23]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+WARNING: [Synth 8-3848] Net mem in module/entity Instr_Mem does not have driver. [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:20]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'Instr_Mem' (5#1) [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Mem.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'Instr_Decoder_32' [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Decoder_32.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'Instr_Decoder_32' (6#1) [C:/Users/Lenovo/Documents/Vivado/E4/Instr_Decoder_32.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [C:/Users/Lenovo/Documents/Vivado/E4/ImmGen.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (7#1) [C:/Users/Lenovo/Documents/Vivado/E4/ImmGen.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'Reg_file' [C:/Users/Lenovo/Documents/Vivado/E4/Reg_file.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'Reg_file' (8#1) [C:/Users/Lenovo/Documents/Vivado/E4/Reg_file.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'BranchCond' [C:/Users/Lenovo/Documents/Vivado/E4/BranchCond.sv:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/Lenovo/Documents/Vivado/E4/BranchCond.sv:31]
+INFO: [Synth 8-6155] done synthesizing module 'BranchCond' (9#1) [C:/Users/Lenovo/Documents/Vivado/E4/BranchCond.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/Lenovo/Documents/Vivado/E4/ALU.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/Lenovo/Documents/Vivado/E4/ALU.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'Data_Mem' [C:/Users/Lenovo/Documents/Vivado/E4/Data_Mem.sv:17]
+WARNING: [Synth 8-2898] ignoring malformed $readmem task: invalid memory name [C:/Users/Lenovo/Documents/Vivado/E4/Data_Mem.sv:27]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Mem' (11#1) [C:/Users/Lenovo/Documents/Vivado/E4/Data_Mem.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'MUX3x1' [C:/Users/Lenovo/Documents/Vivado/E4/MUX3x1.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX3x1' (12#1) [C:/Users/Lenovo/Documents/Vivado/E4/MUX3x1.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (13#1) [C:/Users/Lenovo/Documents/Vivado/E4/DataPath.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'Processor' (14#1) [C:/Users/Lenovo/Documents/Vivado/E4/Processor.sv:15]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[31]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[30]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[29]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[28]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design Data_Mem has unconnected port addr[11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:03 ; elapsed = 00:01:12 . Memory (MB): peak = 1391.512 ; gain = 728.895
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:07 ; elapsed = 00:01:17 . Memory (MB): peak = 1391.512 ; gain = 728.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:07 ; elapsed = 00:01:17 . Memory (MB): peak = 1391.512 ; gain = 728.895
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lenovo/Documents/Vivado/E4/E4t1.srcs/constrs_1/new/Processor.xdc]
+Finished Parsing XDC File [C:/Users/Lenovo/Documents/Vivado/E4/E4t1.srcs/constrs_1/new/Processor.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1541.113 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.323 . Memory (MB): peak = 1544.148 ; gain = 3.035
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 1544.148 ; gain = 881.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 1544.148 ; gain = 881.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 1544.148 ; gain = 881.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "S" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "L" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_wr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "R" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "I" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "auipc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "jal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "jalr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sel_A" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sel_B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "alu_op" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "wb_sel0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "imm_gen0" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:30:54 ; elapsed = 00:35:04 . Memory (MB): peak = 1889.949 ; gain = 1227.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'dp1/C1' (Counter) to 'dp1/C2'
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |Instr_Mem__GB0         |           1|     32752|
+|2     |muxpart__19_Instr_Mem  |           1|     16376|
+|3     |muxpart__20_Instr_Mem  |           1|     16376|
+|4     |Data_Mem__GB0          |           1|     21585|
+|5     |muxpart__4442_Data_Mem |           1|     16376|
+|6     |Data_Mem__GB2          |           1|     13364|
+|7     |Data_Mem__GB3          |           1|     32841|
+|8     |Data_Mem__GB4          |           1|     27784|
+|9     |Data_Mem__GB5          |           1|     37272|
+|10    |Data_Mem__GB6          |           1|     42589|
+|11    |Data_Mem__GB7          |           1|     51909|
+|12    |Data_Mem__GB8          |           1|     48328|
+|13    |Data_Mem__GB9          |           1|     21224|
+|14    |DataPath__GC0          |           1|      7240|
+|15    |ControlPath            |           1|       268|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     30 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 32    
+	               30 Bit    Registers := 1     
+	                8 Bit    Registers := 2048  
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   6 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5114  
+	   3 Input      8 Bit        Muxes := 831   
+	  15 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 2     
+	  10 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 56    
+	  10 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 4155  
+	   4 Input      1 Bit        Muxes := 2045  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ControlPath 
+Detailed RTL Component Info : 
++---Muxes : 
+	  15 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 2     
+	  10 Input      2 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 12    
+Module Data_Mem 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2048  
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5114  
+	   3 Input      8 Bit        Muxes := 831   
+	   3 Input      2 Bit        Muxes := 56    
+	   2 Input      1 Bit        Muxes := 4092  
+	   4 Input      1 Bit        Muxes := 2045  
+Module Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+Module MUX2x1__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Registers : 
+	               30 Bit    Registers := 1     
+Module ImmGen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+Module Reg_file 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 63    
+Module MUX2x1__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX2x1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module MUX3x1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "S" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "L" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "jalr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "jal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "auipc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "I" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "R" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_wr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sel_A" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sel_B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "imm_gen0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wb_sel0" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:33:44 ; elapsed = 00:38:24 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |Instr_Mem__GB0         |           1|     32752|
+|2     |muxpart__19_Instr_Mem  |           1|     16376|
+|3     |muxpart__20_Instr_Mem  |           1|     16376|
+|4     |Data_Mem__GB0          |           1|     21363|
+|5     |muxpart__4442_Data_Mem |           1|     16376|
+|6     |Data_Mem__GB2          |           1|      5634|
+|7     |Data_Mem__GB3          |           1|     32823|
+|8     |Data_Mem__GB4          |           1|     10765|
+|9     |Data_Mem__GB5          |           1|     10056|
+|10    |Data_Mem__GB6          |           1|     15206|
+|11    |Data_Mem__GB7          |           1|     14295|
+|12    |Data_Mem__GB8          |           1|     13620|
+|13    |Data_Mem__GB9          |           1|      4358|
+|14    |DataPath__GC0          |           1|      5137|
+|15    |ControlPath            |           1|       139|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:33:59 ; elapsed = 00:38:42 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:34:00 ; elapsed = 00:38:43 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:34:00 ; elapsed = 00:38:43 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:34:01 ; elapsed = 00:38:45 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:32:41 ; elapsed = 00:38:36 . Memory (MB): peak = 1902.410 ; gain = 1087.156
+Synthesis Optimization Complete : Time (s): cpu = 00:34:02 ; elapsed = 00:38:49 . Memory (MB): peak = 1902.410 ; gain = 1239.793
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1902.410 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 129 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:34:29 ; elapsed = 00:39:22 . Memory (MB): peak = 1902.410 ; gain = 1547.207
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1902.410 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Lenovo/Documents/Vivado/E4/E4t1.runs/synth_1/Processor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Processor_utilization_synth.rpt -pb Processor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  8 13:04:16 2025...

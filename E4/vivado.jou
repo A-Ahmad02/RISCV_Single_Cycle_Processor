@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan  8 12:22:39 2025
+# Process ID: 11336
+# Current directory: C:/Users/Lenovo/Documents/Vivado/E4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1928 C:\Users\Lenovo\Documents\Vivado\E4\E4t1.xpr
+# Log file: C:/Users/Lenovo/Documents/Vivado/E4/vivado.log
+# Journal file: C:/Users/Lenovo/Documents/Vivado/E4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/Documents/Vivado/E4/E4t1.xpr
+uupdate_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1

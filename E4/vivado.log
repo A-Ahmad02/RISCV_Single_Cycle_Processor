@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan  8 12:22:39 2025
+# Process ID: 11336
+# Current directory: C:/Users/Lenovo/Documents/Vivado/E4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1928 C:\Users\Lenovo\Documents\Vivado\E4\E4t1.xpr
+# Log file: C:/Users/Lenovo/Documents/Vivado/E4/vivado.log
+# Journal file: C:/Users/Lenovo/Documents/Vivado/E4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/Documents/Vivado/E4/E4t1.xpr
+IINFO: [Project 1-313] Project file moved from 'C:/DriveA/Workspaces/Vivado/CA_Lab/E4' since last save.Scanning sources...
+FFinished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/ProgramFiles/Xilinx/Vivado/2019.1/data/ip'.
+oopen_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 761.113 ; gain = 179.668uupdate_compile_order -fileset sources_1ereset_run synth_1
+launch_runs synth_1 -jobs 2
+[Wed Jan  8 12:24:49 2025] Launched synth_1...
+Run output will be captured here: C:/Users/Lenovo/Documents/Vivado/E4/E4t1.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 804.230 ; gain = 35.961
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Lenovo/Documents/Vivado/E4/E4t1.srcs/constrs_1/new/Processor.xdc]
+Finished Parsing XDC File [C:/Users/Lenovo/Documents/Vivado/E4/E4t1.srcs/constrs_1/new/Processor.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1136.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1301.238 ; gain = 489.848
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  8 13:11:37 2025...
