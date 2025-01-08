@@ -1,0 +1,21 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ALU.sv,1709469332,systemVerilog,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/BranchCond.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ControlPath.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Counter.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/DataPath.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Data_Mem.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ImmGen.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Instr_Decoder_32.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Instr_Mem.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/MUX2x1.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/MUX3x1.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Processor.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Processor_tb.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ProgramCounter.sv;C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Reg_file.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/BranchCond.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,$unit_ALU_sv;ALU,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/BranchCond.sv,1709467083,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ControlPath.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,BranchCond,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ControlPath.sv,1709532013,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Counter.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,ControlPath,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Counter.sv,1709468217,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/DataPath.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Counter,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/DataPath.sv,1709518780,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Data_Mem.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,DataPath,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Data_Mem.sv,1709490000,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ImmGen.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Data_Mem,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/E4t1.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,1709514097,verilog,,,,,,,,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ImmGen.sv,1709483355,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Instr_Decoder_32.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,ImmGen,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Instr_Decoder_32.sv,1709469239,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Instr_Mem.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Instr_Decoder_32,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Instr_Mem.sv,1709489937,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/MUX2x1.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Instr_Mem,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/MUX2x1.sv,1708918672,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/MUX3x1.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,MUX2x1,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/MUX3x1.sv,1709488442,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Processor.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,MUX3x1,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Processor.sv,1709488646,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ProgramCounter.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Processor,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Processor_tb.sv,1709488371,systemVerilog,,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Processor_tb,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/ProgramCounter.sv,1709468364,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Reg_file.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,ProgramCounter,,,../../../../,,,,,
+C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Reg_file.sv,1709488712,systemVerilog,,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Processor_tb.sv,C:/DriveA/Workspaces/Vivado/CA_Lab/E4/Header.svh,Reg_file,,,../../../../,,,,,
